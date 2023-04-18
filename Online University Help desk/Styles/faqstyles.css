@@ -1,0 +1,103 @@
+
+
+.faq-heading{
+    text-align:center;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+.faq-page {
+   
+    color: black;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    margin: auto;
+	font-size:16px;
+	background-color:	#DCDCDC;
+	margin-bottom:10px;
+
+}
+.faq-page:hover {
+  
+  color: black;
+  background-color:black;
+   box-shadow: 2px 2px 0 rgba(0,0,0,0.24),0 3px 3px 0 rgba(0,0,0,0.19);
+}
+
+.faq-body{
+    margin:auto;
+   width: 60.3%; 
+   padding: auto;
+   float:left;
+   position:relative;
+   top:-10px;
+
+   
+}
+
+
+
+.active,
+.faq-page:hover {
+    background-color:#F0F0F0;
+}
+
+
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+   
+}
+.user{
+	background-color:#65ADF5;
+	color:white;
+	border:none;
+	border-radius:50%;
+	display:flex;
+	float:left;
+	
+	
+}
+.user:hover{
+	background-color:white;
+	color:#65ADF5;
+	
+}
+.fa-user-circle-o{
+	font-size:26px;
+	position:relative; 
+	top:2px;
+	right:5px;
+	margin:auto;
+	padding:auto;
+	text-align:center;
+}
+.us{
+
+	margin:auto;
+}
